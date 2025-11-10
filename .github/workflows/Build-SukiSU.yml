@@ -15,6 +15,7 @@ on:
           - sm8550
           - sm8650
           - sm8750
+          - sm8850
       FEIL:
         type: choice
         description: "配置文件"
@@ -44,6 +45,7 @@ on:
           - oneplus_ace5_pro
           - oneplus_pad_2_pro
           - oneplus_pad_3
+          - oneplus_15
           - GitHub有bug可能不显示最后一项,误使用此项
       CPUD:
         type: choice
@@ -56,6 +58,7 @@ on:
           - kalama
           - pineapple
           - sun
+          - canoe
       ANDROID_VERSION:
         type: choice
         description: "内核安卓版本"
@@ -66,6 +69,7 @@ on:
           - android13
           - android14
           - android15
+          - android16
       KERNEL_VERSION:
        type: choice
        description: "内核版本"
@@ -76,6 +80,7 @@ on:
          - "5.15"
          - "6.1"
          - "6.6"
+         - "6.12"
       BUILD_METHOD:
         type: choice
         description: "编译方式"
